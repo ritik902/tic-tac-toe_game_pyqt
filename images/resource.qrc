@@ -1,0 +1,6 @@
+<RCC>
+  <qresource prefix="crossAndZero">
+    <file>cross.png</file>
+    <file>zero.png</file>
+  </qresource>
+</RCC>
