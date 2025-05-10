@@ -91,7 +91,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -113,7 +114,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -135,7 +137,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -157,7 +160,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -179,7 +183,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -201,7 +206,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -223,7 +229,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -245,7 +252,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -267,7 +275,8 @@
      </rect>
     </property>
     <property name="styleSheet">
-     <string notr="true">border:None;</string>
+     <string notr="true">border:None;
+background:transparent;</string>
     </property>
     <property name="text">
      <string/>
@@ -325,7 +334,9 @@
         font-size: 22px;
         font-weight: 600;
         color: qlineargradient(spread:pad, x1:0, y1:0, x2:1, y2:0, stop:0 #ff512f, stop:1 #dd2476);
-    }</string>
+background:transparent;
+    }
+</string>
     </property>
     <property name="text">
      <string>Please Select Player First</string>
@@ -342,6 +353,178 @@
     </property>
     <property name="text">
      <string/>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_newMatch">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>442</y>
+      <width>140</width>
+      <height>30</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+        background-color: #2c3e50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    QPushButton:hover {
+        background-color: red;
+    }
+    QPushButton:pressed {
+        background-color: red;
+    }
+    QPushButton:disabled {
+        background-color: #7f8c8d;
+        color: #bdc3c7;
+    }</string>
+    </property>
+    <property name="text">
+     <string>New Match ?</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_edit">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>320</y>
+      <width>611</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 11pt &quot;URW Bookman&quot;;
+font-size: 40px;
+background:transparent;</string>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Cross">
+    <property name="geometry">
+     <rect>
+      <x>440</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../images/resource.qrc">:/crossAndZero/cross.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>450</x>
+      <y>430</y>
+      <width>221</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 25 11pt &quot;URW Bookman&quot;;
+color: rgb(0, 0, 0);
+font-size: 20px;
+background:transparent;</string>
+    </property>
+    <property name="text">
+     <string>Default is Player 2 (O)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_player2_O">
+    <property name="geometry">
+     <rect>
+      <x>596</x>
+      <y>360</y>
+      <width>120</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+        background-color: #2c3e50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    QPushButton:hover {
+        background-color: red;
+    }
+    QPushButton:pressed {
+        background-color: red;
+    }
+    QPushButton:disabled {
+        background-color: #7f8c8d;
+        color: #bdc3c7;
+    }
+</string>
+    </property>
+    <property name="text">
+     <string>Player 2 (O)</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="pushButton_player1_X">
+    <property name="geometry">
+     <rect>
+      <x>403</x>
+      <y>360</y>
+      <width>120</width>
+      <height>27</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">QPushButton {
+        background-color: #2c3e50;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        font-size: 20px;
+    }
+    QPushButton:hover {
+        background-color: red;
+    }
+    QPushButton:pressed {
+        background-color: red;
+    }
+    QPushButton:disabled {
+        background-color: #7f8c8d;
+        color: #bdc3c7;
+    }</string>
+    </property>
+    <property name="text">
+     <string>Player 1 (X)</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="Zero">
+    <property name="geometry">
+     <rect>
+      <x>630</x>
+      <y>300</y>
+      <width>50</width>
+      <height>50</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="../images/resource.qrc">:/crossAndZero/zero.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
     </property>
    </widget>
   </widget>
